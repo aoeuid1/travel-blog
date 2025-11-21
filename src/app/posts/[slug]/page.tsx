@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { format } from 'date-fns';
-import { getPostBySlug } from '@/lib/posts';
+import { getPostBySlug, getPosts } from '@/lib/posts';
 import { CalendarDays } from 'lucide-react';
 
 type PostPageProps = {
@@ -9,6 +9,13 @@ type PostPageProps = {
     slug: string;
   };
 };
+
+export async function generateStaticParams() {
+  const posts = await getPosts();
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
 
 export default async function PostPage({ params }: PostPageProps) {
   const post = await getPostBySlug(params.slug);
