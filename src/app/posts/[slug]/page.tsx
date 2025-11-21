@@ -48,7 +48,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
           alt={image.description}
           width={1200}
           height={600}
-          className="w-full h-auto rounded-lg shadow-lg"
+          className="w-full h-auto rounded-lg shadow-lg dark:opacity-90 dark:brightness-90"
           data-ai-hint={image.imageHint}
         />
         <figcaption className="text-center text-sm italic text-muted-foreground mt-4">
@@ -57,7 +57,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       </figure>
 
       <div
-        className="prose prose-lg dark:prose-invert max-w-2xl mx-auto text-foreground/90 text-lg prose-img:rounded-lg prose-img:shadow-md first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left font-serif"
+        className="prose prose-lg dark:prose-invert max-w-2xl mx-auto text-stone-800 dark:text-zinc-300 text-lg prose-img:rounded-lg prose-img:shadow-md first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left font-serif prose-headings:text-stone-800 prose-headings:dark:text-zinc-100 prose-img:dark:opacity-90 prose-img:dark:brightness-90"
         dangerouslySetInnerHTML={{ __html: post.content }}
       />
     </article>
