@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { BookMarked, PlusCircle } from 'lucide-react';
+import { BookMarked } from 'lucide-react';
 
 export function Header() {
   return (
@@ -13,12 +12,6 @@ export function Header() {
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button asChild>
-            <Link href="/posts/new">
-              <PlusCircle />
-              Create Post
-            </Link>
-          </Button>
         </div>
       </div>
     </header>
