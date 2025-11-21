@@ -2,7 +2,7 @@
   "images": [
     {
       "id": "istanbul-cat-1",
-      "description": "a cute cat",
+      "description": "",
       "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0317.jpg",
       "imageHint": "a cat"
     },
@@ -29,6 +29,36 @@
       "description": "Snow-capped mountain peak at dawn",
       "imageUrl": "https://images.unsplash.com/photo-1584222659952-475354972379?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb3VudGFpbiUyMGxha2V8ZW58MHx8fHwxNzYzNzQyMTM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mountain lake"
+    },
+    {
+      "id": "istanbul-cat-2",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0291.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-3",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251121_051235490.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-4",
+      "description": "Inside the Hagia Sophia",
+      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251121_060707229.MP.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-5",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251121_063441405.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-6",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/image.jpg",
+      "imageHint": ""
     }
   ]
 }

@@ -11,15 +11,19 @@ export interface Post {
 
 const allPosts: Post[] = [
   {
-    slug: 'a-Parisian-adventure',
-    title: 'A Parisian Adventure',
+    slug: 'cats-of-istanbul',
+    title: 'Cats of Istanbul',
     summary: 'Exploring the romantic streets and iconic landmarks of Paris.',
     date: '2024-05-15',
     imageId: 'istanbul-cat-1',
     content: `
-<p>Our journey began in the heart of Paris, with a visit to the magnificent Eiffel Tower. The view from the top was breathtaking, offering a panoramic vista of the city's charming rooftops and winding streets. We spent the afternoon getting lost in the Louvre, marveling at masterpieces like the Mona Lisa and the Venus de Milo.</p>
+<p> CAT </p>
 {{image:istanbul-cat-1}}
-<p>Evenings were for romantic strolls along the Seine, watching the city lights dance on the water. We indulged in delicious pastries from a local patisserie and enjoyed a classic French dinner in a cozy bistro in Montmartre. Paris truly is a feast for the senses.</p>
+{{image:istanbul-cat-2}}
+{{image:istanbul-cat-3}}
+{{image:istanbul-cat-4}}
+{{image:istanbul-cat-5}}
+{{image:istanbul-cat-6}}
 `,
   },
   {
