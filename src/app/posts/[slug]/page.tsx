@@ -52,9 +52,11 @@ export default function PostPage({ params }: { params: { slug: string } }) {
           className={cn('w-full h-auto', 'blog-image')}
           data-ai-hint={image.imageHint}
         />
-        <figcaption className="text-center text-sm italic text-muted-foreground mt-4">
-          Photo by Unsplash
-        </figcaption>
+        {image.description && (
+          <figcaption className="text-center text-sm italic text-muted-foreground mt-4">
+            {image.description}
+          </figcaption>
+        )}
       </figure>
 
       <div

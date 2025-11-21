@@ -1,8 +1,8 @@
 {
   "images": [
     {
-      "id": "paris",
-      "description": "A cat in Paris",
+      "id": "istanbul-cat-1",
+      "description": "a cute cat",
       "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0317.jpg",
       "imageHint": "a cat"
     },
