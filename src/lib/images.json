@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "id": "paris",
+      "description": "A cat in Paris",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0317.jpg",
+      "imageHint": "a cat"
+    },
+    {
+      "id": "tokyo",
+      "description": "Streets of Tokyo at night with neon signs",
+      "imageUrl": "https://images.unsplash.com/photo-1564608909988-b678124c55d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaGlidXlhJTIwY3Jvc3Npbmd8ZW58MHx8fHwxNzYzNzMxMjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shibuya crossing"
+    },
+    {
+      "id": "canyon",
+      "description": "Vast canyon under a blue sky",
+      "imageUrl": "https://images.unsplash.com/photo-1542444592-74895f9c2ccc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmFuZCUyMGNhbnlvbnxlbnwwfHx8fDE3NjM3MzEyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grand canyon"
+    },
+    {
+      "id": "rainforest",
+      "description": "Lush green rainforest with a misty atmosphere",
+      "imageUrl": "https://images.unsplash.com/photo-1585293623769-8f2723c874e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyYWluZm9yZXN0fGVufDB8fHx8MTc2Mzc0MjA3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rainforest"
+    },
+    {
+      "id": "mountain",
+      "description": "Snow-capped mountain peak at dawn",
+      "imageUrl": "https://images.unsplash.com/photo-1584222659952-475354972379?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb3VudGFpbiUyMGxha2V8ZW58MHx8fHwxNzYzNzQyMTM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain lake"
+    }
+  ]
+}

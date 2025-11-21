@@ -1,6 +1,6 @@
 import { getPostBySlug, getAllPosts } from '@/lib/posts';
 import { notFound } from 'next/navigation';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Images } from '@/lib/images';
 import Image from 'next/image';
 import { Calendar } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -29,7 +29,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
     notFound();
   }
 
-  const image = PlaceHolderImages.find(p => p.id === post.imageId) ?? PlaceHolderImages[0];
+  const image = Images.find(p => p.id === post.imageId) ?? Images[0];
 
   return (
     <article className="max-w-4xl mx-auto">
