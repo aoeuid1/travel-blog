@@ -9,7 +9,7 @@ export interface Post {
 
 const allPosts: Post[] = [
   {
-    slug: 'a- Parisian-adventure',
+    slug: 'a-Parisian-adventure',
     title: 'A Parisian Adventure',
     summary: 'Exploring the romantic streets and iconic landmarks of Paris.',
     date: '2024-05-15',
