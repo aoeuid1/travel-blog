@@ -1,0 +1,27 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Or your default branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+
+      - name: Install, build, and upload your site
+        uses: withastro/action-hosting-gh-pages@v1
+        with:
+          path: out # The folder the action should deploy.
+          # It's important to keep the GITHUB_TOKEN secret.
+          # We're using a special permission that allows the action to deploy to GitHub Pages.
+          # You can learn more about this in the GitHub Actions documentation.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
