@@ -56,4 +56,7 @@
   body {
     @apply bg-background text-foreground;
   }
+  .blog-image {
+    @apply rounded-lg shadow-lg dark:opacity-90 dark:brightness-90 my-8;
+  }
 }
