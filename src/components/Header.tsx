@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BookMarked } from 'lucide-react';
+import { ThemeToggle } from './theme-toggle';
 
 export function Header() {
   return (
@@ -12,6 +13,7 @@ export function Header() {
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
+          <ThemeToggle />
         </div>
       </div>
     </header>

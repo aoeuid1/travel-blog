@@ -32,22 +32,29 @@ export default function PostPage({ params }: { params: { slug: string } }) {
 
   return (
     <article className="max-w-4xl mx-auto">
-      <header className="mb-8">
-        <h1 className="text-4xl md:text-5xl font-headline font-bold mb-2">{post.title}</h1>
-        <div className="flex items-center text-muted-foreground">
-          <Calendar className="h-5 w-5 mr-2" />
-          <p className="text-lg">{formatDate(post.date)}</p>
+      <header className="text-center mx-auto max-w-3xl pb-8 mb-8 border-b">
+        <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">{post.title}</h1>
+        <div className="flex items-center justify-center text-muted-foreground">
+          <Calendar className="h-4 w-4 mr-2" />
+          <p className="text-sm font-medium uppercase tracking-widest">
+            {formatDate(post.date)}
+          </p>
         </div>
       </header>
 
-      <Image
-        src={image.imageUrl}
-        alt={image.description}
-        width={1200}
-        height={600}
-        className="w-full h-auto rounded-lg mb-8 shadow-lg"
-        data-ai-hint={image.imageHint}
-      />
+      <figure className="mb-12">
+        <Image
+          src={image.imageUrl}
+          alt={image.description}
+          width={1200}
+          height={600}
+          className="w-full h-auto rounded-lg shadow-lg"
+          data-ai-hint={image.imageHint}
+        />
+        <figcaption className="text-center text-sm italic text-muted-foreground mt-4">
+          Photo by Unsplash
+        </figcaption>
+      </figure>
 
       <div
         className="prose prose-lg dark:prose-invert max-w-2xl mx-auto text-foreground/90 text-lg prose-img:rounded-lg prose-img:shadow-md first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left font-serif"
