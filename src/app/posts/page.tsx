@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Images } from '@/lib/images';
 
 export default function PostsPage() {
   const posts = getAllPosts();
@@ -16,7 +16,7 @@ export default function PostsPage() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((post) => {
-         const image = PlaceHolderImages.find(p => p.id === post.imageId) ?? PlaceHolderImages[0];
+         const image = Images.find(p => p.id === post.imageId) ?? Images[0];
         return (
           <Link href={`/posts/${post.slug}`} key={post.slug} className="group">
             <Card className="h-full overflow-hidden transition-all group-hover:shadow-xl group-hover:-translate-y-1">
