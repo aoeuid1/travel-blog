@@ -38,17 +38,6 @@ let posts: Post[] = [
   },
 ];
 
-function slugify(text: string) {
-  return text
-    .toString()
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]+/g, '')
-    .replace(/--+/g, '-')
-    .replace(/^-+/, '')
-    .replace(/-+$/, '');
-}
-
 export async function getPosts(): Promise<Post[]> {
   // Return a copy sorted by date
   return [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -56,16 +45,4 @@ export async function getPosts(): Promise<Post[]> {
 
 export async function getPostBySlug(slug: string): Promise<Post | undefined> {
   return posts.find(post => post.slug === slug);
-}
-
-export async function addPost(data: Omit<Post, 'slug' | 'date' | 'imageHint'> & {imageUrl: string}) {
-  const imageHint = placeholderData.placeholderImages.find(p => p.imageUrl === data.imageUrl)?.imageHint || 'travel photo';
-  const newPost: Post = {
-    ...data,
-    slug: `${slugify(data.title)}-${Date.now()}`,
-    date: new Date().toISOString(),
-    imageHint,
-  };
-  posts.unshift(newPost);
-  return newPost;
 }

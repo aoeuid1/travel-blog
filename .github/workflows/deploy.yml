@@ -19,7 +19,7 @@ jobs:
 
       - name: Install, build, and upload your site
         uses: withastro/action-hosting-gh-pages@v1
-        with:
+# Like I said, only return the code, not an explanation text.        with:
           path: out # The folder the action should deploy.
           # It's important to keep the GITHUB_TOKEN secret.
           # We're using a special permission that allows the action to deploy to GitHub Pages.
