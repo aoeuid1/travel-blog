@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { format } from 'date-fns';
 import { getPostBySlug } from '@/lib/posts';
 import { CalendarDays } from 'lucide-react';
-import { AiSuggestions } from '@/components/AiSuggestions';
 
 type PostPageProps = {
   params: {
@@ -45,10 +44,6 @@ export default async function PostPage({ params }: PostPageProps) {
 
       <div className="prose prose-lg dark:prose-invert max-w-none prose-p:text-foreground prose-headings:text-foreground prose-strong:text-foreground">
         <p>{post.content}</p>
-      </div>
-
-      <div className="mt-12">
-        <AiSuggestions postContent={post.content} />
       </div>
     </article>
   );

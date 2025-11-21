@@ -4,7 +4,6 @@ import { z } from 'zod';
 import { addPost } from '@/lib/posts';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { suggestNearbyPoi } from '@/ai/flows/suggest-nearby-poi';
 
 const postSchema = z.object({
   title: z.string().min(3, { message: 'Title must be at least 3 characters long.' }),
@@ -49,18 +48,4 @@ export async function createPostAction(
   }
   
   redirect('/');
-}
-
-export async function getAiSuggestionsAction(blogPostContent: string) {
-  if (!blogPostContent) {
-    return { error: 'Blog content is empty.' };
-  }
-
-  try {
-    const result = await suggestNearbyPoi({ blogPostContent });
-    return { suggestions: result.nearbyPois };
-  } catch (error) {
-    console.error('AI suggestion error:', error);
-    return { error: 'Failed to get AI-powered suggestions. Please try again later.' };
-  }
 }
