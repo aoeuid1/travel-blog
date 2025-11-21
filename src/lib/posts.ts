@@ -59,7 +59,9 @@ export function getPostBySlug(slug: string) {
   const processedContent = post.content.replace(/{{image:(.*?)}}/g, (match, imageId) => {
     const image = Images.find((img) => img.id === imageId.trim());
     if (image) {
-      return `<img src="${image.imageUrl}" alt="${image.description}" class="blog-image mx-auto block" />`;
+      const imageTag = `<img src="${image.imageUrl}" alt="${image.description}" class="blog-image mx-auto block" />`;
+      const figcaption = image.description ? `<figcaption class="text-center text-sm italic text-muted-foreground mt-2">${image.description}</figcaption>` : '';
+      return `<figure class="my-8">${imageTag}${figcaption}</figure>`;
     }
     return '';
   });
