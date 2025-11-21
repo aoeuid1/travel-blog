@@ -3,8 +3,8 @@ import type {NextConfig} from 'next';
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  basePath: '/wanderlogger',
-  assetPrefix: '/wanderlogger/',
+  basePath: '/travel-blog',
+  assetPrefix: '/travel-blog/',
   typescript: {
     ignoreBuildErrors: true,
   },
