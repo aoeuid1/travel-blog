@@ -58,7 +58,7 @@ const allPosts: Post[] = [
 
 <h3> Inside Hagia Sophia </h3>
 {{image:hagia-sophia-5}}
-<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. It is pretty small and considering the 25€ admission fee.</p>
+<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. It is pretty small considering the 25€ admission fee.</p>
 
 <p> In Nov 2025, the scaffolding definitely detracts from the visual appeal of the building but it was the only way to keep the building open during renovations. The ground floor is for Turkish Muslims to pray only.</p>
 {{image:hagia-sophia-4}}
