@@ -47,17 +47,18 @@ const allPosts: Post[] = [
 <h2> Hagia Sophia </h2>
 
 <h3> Tickets </h3>
-<p> Tickets are available in person at the ticket counter at the Sultan Ahmed III Fountain. This is the ONLY official source of tickets despite what many sites online want you to believe. For 25€, you get access to the upper floor the mosque where the mosaics are as well as the "Hagia Sophia Experience Museum" nearby. The lower floor of the mosque is closed for visitors and is for Turkish Muslims for prayer only.</p>
+<p> Tickets are available in person at the ticket counter at the Sultan Ahmed III Fountain. For 25€, you get access to the upper floor the mosque where the mosaics are. The lower floor of the mosque is closed for visitors and is for Turkish Muslims for prayer only.</p>
+<p> Skip-the-line tickets are also available online for an additional fee, but keep in mind there are separate lines to buy a ticket and for the security line to enter the mosque. You still have to wait in the security line even if you have a skip-the-line ticket. </p>
 
 <h3> Hours </h3>
 <p> The ticket window opens at 9, but the lines can be long so try to arrive at 8:30 or so. The mosque closes at 19:30 at night.</p>
 
-<h3> Hagia Sophia Experience Museum </h3>
-<p> The Hagia Sophia Experience Museum is a high tech audio/visual tour of the history of the building. You are guided through various rooms in the museum, each with images/audio telling a chapter of the Hagia Sophia's story. Narration is provided via a headset. Admission is included in the ticket price so don't miss it!</p>
+<h3> Dress Code </h3>
+<p> Women must cover their hair (headscarf). Both men and women must cover shoulders and knees. Scarves are available for purchase nearby. </p>
 
 <h3> Inside Hagia Sophia </h3>
 {{image:hagia-sophia-5}}
-<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. It is pretty small considering the 25€ admission fee.</p>
+<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. It is pretty small and considering the 25€ admission fee.</p>
 
 <p> In Nov 2025, the scaffolding definitely detracts from the visual appeal of the building but it was the only way to keep the building open during renovations. The ground floor is for Turkish Muslims to pray only.</p>
 {{image:hagia-sophia-4}}
