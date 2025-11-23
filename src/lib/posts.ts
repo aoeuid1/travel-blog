@@ -27,6 +27,8 @@ const allPosts: Post[] = [
 {{image:istanbul-cat-4}}
 {{image:istanbul-cat-5}}
 {{image:istanbul-cat-6}}
+{{image:istanbul-cat-7}}
+{{image:istanbul-cat-8}}
 `,
     location: {
       lat: 41.0082,
@@ -34,18 +36,23 @@ const allPosts: Post[] = [
     },
   },
   {
-    slug: 'grand-canyon-majesty',
-    title: 'The Grand Canyon\'s Majesty',
-    summary: 'Witnessing the awe-inspiring scale and beauty of the Grand Canyon.',
-    date: '2024-03-10',
-    imageId: 'canyon',
+    slug: 'hagia-sophia',
+    title: 'The Timeless Wonder of Hagia Sophia',
+    summary: 'Exploring the architectural marvel and rich history of Istanbul\'s iconic landmark.',
+    date: '2024-11-20',
+    imageId: 'hagia-sophia-1',
     content: `
-<p>Standing on the rim of the Grand Canyon at sunrise is a spiritual experience. The sheer scale of it is impossible to capture in photos. As the sun rose, it painted the canyon walls in shifting shades of orange, red, and purple. We hiked a portion of the Bright Angel Trail, descending into the canyon to get a different perspective of its immense size.</p>
-<p>The vastness of the landscape and the quiet of the desert were a powerful reminder of nature's artistry. It's a place that makes you feel small in the best possible way, filling you with a sense of wonder and awe.</p>
+<p>Hagia Sophia, with its immense dome and stunning mosaics, stands as a testament to centuries of history. Originally a cathedral, later a mosque, and now a museum, its walls whisper tales of empires and faiths. Walking through its grand hall is a journey through time, where Byzantine and Ottoman art coexist.</p>
+{{image:hagia-sophia-1}}
+{{image:hagia-sophia-2}}
+{{image:hagia-sophia-3}}
+{{image:hagia-sophia-4}}
+{{image:hagia-sophia-5}}
+<p>The play of light through the high windows illuminates the intricate details of the interior, creating a serene and contemplative atmosphere. It is a place of profound beauty and historical significance, a must-see for any visitor to Istanbul.</p>
 `,
     location: {
-      lat: 36.0592,
-      lng: -112.1401,
+      lat: 41.0086,
+      lng: 28.9800,
     },
   },
 ];

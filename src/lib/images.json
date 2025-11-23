@@ -59,6 +59,48 @@
       "description": "",
       "imageUrl": "/travel-blog/images/istanbul/cats/image.jpg",
       "imageHint": ""
+    },
+    {
+      "id": "hagia-sophia-1",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/hagiasophia/PXL_20251121_061752429.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "hagia-sophia-2",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/hagiasophia/DSC_0303~2.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "hagia-sophia-3",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/hagiasophia/PXL_20251121_060924963.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "hagia-sophia-4",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/hagiasophia/PXL_20251121_061033391.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "hagia-sophia-5",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/hagiasophia/PXL_20251121_061326931.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-7",
+      "description": "A cat inspecting a fisherman's catch over the Galata Bridge",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0325.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-8",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0369.jpg",
+      "imageHint": ""
     }
   ]
 }
