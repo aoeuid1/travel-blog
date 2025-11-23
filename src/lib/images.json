@@ -1,3 +1,4 @@
+
 {
   "images": [
     {
@@ -76,6 +77,24 @@
       "id": "istanbul-cat-8",
       "description": "Inspecting a fisherman's catch over the Galata Bridge. ",
       "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0369.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-9",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0285.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-10",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0318.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "istanbul-cat-11",
+      "description": "",
+      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251123_085051243.jpg",
       "imageHint": ""
     }
   ]

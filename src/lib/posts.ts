@@ -28,6 +28,9 @@ const allPosts: Post[] = [
 {{image:istanbul-cat-6}}
 {{image:istanbul-cat-7}}
 {{image:istanbul-cat-8}}
+{{image:istanbul-cat-9}}
+{{image:istanbul-cat-10}}
+{{image:istanbul-cat-11}}
 `,
     location: {
       lat: 41.0082,
