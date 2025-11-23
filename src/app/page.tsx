@@ -2,7 +2,7 @@ import { getAllPosts } from "@/lib/posts";
 import { Images } from "@/lib/images";
 import Link from "next/link";
 import Image from "next/image";
-import WorldMap from "@/components/WorldMap";
+import MapLoader from "@/components/MapLoader";
 
 export default function Home() {
   const posts = getAllPosts();
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="container mx-auto p-4">
       <div className="my-8">
-        <WorldMap posts={posts} />
+        <MapLoader posts={posts} />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {posts.map((post) => {
