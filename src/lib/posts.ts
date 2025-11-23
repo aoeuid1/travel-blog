@@ -44,23 +44,32 @@ const allPosts: Post[] = [
     date: '2025-11-22',
     imageId: 'hagia-sophia-3',
     content: `
-{{collapsible:title="Tickets and Entrance Info"}}
-<p> Tickets are 25€ and available in person at the ticket counter at the Sultan Ahmed III Fountain. This is the ONLY official source of tickets despite what many sites online want you to believe. Tickets include access to the upper floor the mosque where the mosaics are as well as the "Hagia Sophia Experience Museum" nearby. The lower floor of the mosque is </p>
-<p> Hours: The ticket window opens at 9, but the lines can be long so try to arrive at 8:30 or so. </p>
+<h2> Hagia Sophia </h2>
 
-{{/collapsible}}
+<h3> Tickets </h3>
+<p> Tickets are available in person at the ticket counter at the Sultan Ahmed III Fountain. This is the ONLY official source of tickets despite what many sites online want you to believe. For 25€, you get access to the upper floor the mosque where the mosaics are as well as the "Hagia Sophia Experience Museum" nearby. The lower floor of the mosque is closed for visitors and is for Turkish Muslims for prayer only.</p>
 
-<p>
+<h3> Hours </h3>
+<p> The ticket window opens at 9, but the lines can be long so try to arrive at 8:30 or so. The mosque closes at 19:30 at night.</p>
+
+<h3> Hagia Sophia Experience Museum </h3>
+<p> The Hagia Sophia Experience Museum is a high tech audio/visual tour of the history of the building. You are guided through various rooms in the museum, each with images/audio telling a chapter of the Hagia Sophia's story. Narration is provided via a headset. Admission is included in the ticket price so don't miss it!</p>
+
+<h3> Inside Hagia Sophia </h3>
+{{image:hagia-sophia-5}}
+<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. It is pretty small considering the 25€ admission fee.</p>
+
+<p> In Nov 2025, the scaffolding definitely detracts from the visual appeal of the building but it was the only way to keep the building open during renovations. The ground floor is for Turkish Muslims to pray only.</p>
+{{image:hagia-sophia-4}}
+
+<h3> Mosaics </h3>
 {{image:hagia-sophia-1}}
 {{collapsible:title="Why do christian mosaics in the hagia sophia still exist in the mosque"}}
 <p> The fact that these mosaics exist at all is surprisingly rare in history. Usually, when a city was conquered in the ancient world, the victors would destroy the religious symbols of the defeated to assert their dominance. Furthermore, the mosaics were made with real gold leaf and semi-precious stones, making them tempting targets for soldiers looking to loot valuable materials. On top of that, strict Islamic laws forbid images of people in prayer spaces. By all historical odds, these Christian images should have been scraped off the walls immediately in 1453. </p>
 <p> Instead, Sultan Mehmed II made the unusual choice to protect the building’s heritage. While the images were eventually covered with plaster to make the space suitable for a mosque, this coating ironically acted as a "time capsule." It shielded the delicate glass and gold from centuries of dust, light, and decay. The mosaics were briefly rediscovered during renovations in the 1800s but were hidden again until the building became a museum in 1935. Today, even though Hagia Sophia is an active mosque again, the mosaics remain; they are simply covered by curtains during prayer times, allowing a 1,500-year-old Christian legacy to survive inside a major Islamic site. </p>
 {{/collapsible}}
+
 {{image:hagia-sophia-2}}
-{{image:hagia-sophia-3}}
-{{image:hagia-sophia-4}}
-{{image:hagia-sophia-5}}
-<p>The play of light through the high windows illuminates the intricate details of the interior, creating a serene and contemplative atmosphere. It is a place of profound beauty and historical significance, a must-see for any visitor to Istanbul.</p>
 `,
     location: {
       lat: 41.0086,
