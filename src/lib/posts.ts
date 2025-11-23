@@ -18,13 +18,11 @@ const allPosts: Post[] = [
   {
     slug: 'cats-of-istanbul',
     title: 'Cats of Istanbul (pics)',
-    summary: 'Pictures of cats',
-    date: '2024-05-15',
+    summary: 'Pictures of cute cats',
+    date: '2025-11-21',
     imageId: 'istanbul-cat-1',
     content: `
-<p> CAT </p>
-{{image:istanbul-cat-2}}
-{{image:istanbul-cat-3}}
+<p> There are lots of cats in Istanbul. I've been taking pictures of all the cats I see. They're all cute! </p>
 {{image:istanbul-cat-4}}
 {{image:istanbul-cat-5}}
 {{image:istanbul-cat-6}}
