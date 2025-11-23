@@ -7,35 +7,31 @@ export interface Post {
   date: string;
   imageId: string;
   content: string;
+  location?: {
+    lat: number;
+    lng: number;
+  };
 }
 
 const allPosts: Post[] = [
   {
     slug: 'cats-of-istanbul',
     title: 'Cats of Istanbul',
-    summary: 'Exploring the romantic streets and iconic landmarks of Paris.',
+    summary: 'cat.',
     date: '2024-05-15',
     imageId: 'istanbul-cat-1',
     content: `
 <p> CAT </p>
-{{image:istanbul-cat-1}}
 {{image:istanbul-cat-2}}
 {{image:istanbul-cat-3}}
 {{image:istanbul-cat-4}}
 {{image:istanbul-cat-5}}
 {{image:istanbul-cat-6}}
 `,
-  },
-  {
-    slug: 'tokyo-neon-nights',
-    title: 'Tokyo: Neon Nights & Ancient Traditions',
-    summary: 'A journey through the bustling city of Tokyo, from Shibuya Crossing to ancient temples.',
-    date: '2024-04-22',
-    imageId: 'tokyo',
-    content: `
-<p>Tokyo is a city of stunning contrasts. One moment you're swept up in the electric energy of Shibuya Crossing, the busiest intersection in the world, and the next you're finding tranquility in the serene grounds of the Meiji Shrine. We explored the vibrant markets, sampled incredible street food, and got a taste of the city's famous nightlife.</p>
-<p>We also took a day trip to see the majestic Mount Fuji, its snow-capped peak a perfect cone against the blue sky. The blend of ultra-modern technology and deep-rooted cultural traditions makes Tokyo a truly unforgettable destination.</p>
-`,
+    location: {
+      lat: 41.0082,
+      lng: 28.9784,
+    },
   },
   {
     slug: 'grand-canyon-majesty',
@@ -47,6 +43,10 @@ const allPosts: Post[] = [
 <p>Standing on the rim of the Grand Canyon at sunrise is a spiritual experience. The sheer scale of it is impossible to capture in photos. As the sun rose, it painted the canyon walls in shifting shades of orange, red, and purple. We hiked a portion of the Bright Angel Trail, descending into the canyon to get a different perspective of its immense size.</p>
 <p>The vastness of the landscape and the quiet of the desert were a powerful reminder of nature's artistry. It's a place that makes you feel small in the best possible way, filling you with a sense of wonder and awe.</p>
 `,
+    location: {
+      lat: 36.0592,
+      lng: -112.1401,
+    },
   },
 ];
 
