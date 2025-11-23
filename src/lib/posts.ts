@@ -74,6 +74,13 @@ export function getPostsByTag(tag: string) {
   return allPosts.filter((post) => post.tag === tag);
 }
 
+export function getUniqueTags() {
+  const tags = allPosts
+    .map((post) => post.tag)
+    .filter((tag): tag is string => !!tag);
+  return Array.from(new Set(tags));
+}
+
 export function getPostBySlug(slug: string) {
   const post = allPosts.find((post) => post.slug === slug);
   if (!post) {

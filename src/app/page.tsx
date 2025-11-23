@@ -13,6 +13,7 @@ export default function Home() {
       <div className="my-8">
         <MapLoader posts={posts} />
       </div>
+      <h2 className="text-2xl font-bold font-headline tracking-tight mb-4">Recent Posts</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {posts.map((post) => {
           const image = images.find((img) => img.id === post.imageId);

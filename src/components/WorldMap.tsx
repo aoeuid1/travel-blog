@@ -87,15 +87,18 @@ export default function WorldMap({ posts, fitBounds }: { posts: Post[], fitBound
   }, [posts, fitBounds]);
 
   return (
-    <MapContainer center={[20, 0]} zoom={2} className="h-96 w-full">
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
-      {markersToRender.map((postGroup, index) => (
-        <GroupedMarker key={index} posts={postGroup} />
-      ))}
-      {fitBounds && <FitBounds posts={posts} />}
-    </MapContainer>
+    <div>
+      <h2 className="text-2xl font-bold font-headline tracking-tight mb-4">Destinations</h2>
+      <MapContainer center={[20, 0]} zoom={2} className="h-96 w-full">
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        {markersToRender.map((postGroup, index) => (
+          <GroupedMarker key={index} posts={postGroup} />
+        ))}
+        {fitBounds && <FitBounds posts={posts} />}
+      </MapContainer>
+    </div>
   );
 }

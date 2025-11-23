@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { BookMarked } from 'lucide-react';
 import { ThemeToggle } from './theme-toggle';
+import { TagNav } from './TagNav';
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-[1000] w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="flex items-center space-x-2">
@@ -13,6 +14,7 @@ export function Header() {
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
+          <TagNav />
           <ThemeToggle />
         </div>
       </div>
