@@ -44,8 +44,14 @@ const allPosts: Post[] = [
     date: '2024-11-20',
     imageId: 'hagia-sophia-1',
     content: `
-<p>Hagia Sophia, with its immense dome and stunning mosaics, stands as a testament to centuries of history. Originally a cathedral, later a mosque, and now a museum, its walls whisper tales of empires and faiths. Walking through its grand hall is a journey through time, where Byzantine and Ottoman art coexist.</p>
+<p>The Hagia Sophia we see today is actually the third church built on that spot. After the previous building was burned down during riots in 532 AD, Emperor Justinian I wanted to build a replacement that would prove his power and wealth to the world. He hired two brilliant mathematicians to design it, and they created a revolutionary dome that looked like it was floating in the air. Amazingly, the construction took less than six years to finish. When it opened in 537 AD, it became the largest cathedral in the world, a record it held for nearly a thousand years.</p>
+
+<p>
 {{image:hagia-sophia-1}}
+{{collapsible:title="Why do christian mosaics in the hagia sophia still exist in the mosque"}}
+<p> The fact that these mosaics exist at all is surprisingly rare in history. Usually, when a city was conquered in the ancient world, the victors would destroy the religious symbols of the defeated to assert their dominance. Furthermore, the mosaics were made with real gold leaf and semi-precious stones, making them tempting targets for soldiers looking to loot valuable materials. On top of that, strict Islamic laws forbid images of people in prayer spaces. By all historical odds, these Christian images should have been scraped off the walls immediately in 1453. </p>
+<p> Instead, Sultan Mehmed II made the unusual choice to protect the building’s heritage. While the images were eventually covered with plaster to make the space suitable for a mosque, this coating ironically acted as a "time capsule." It shielded the delicate glass and gold from centuries of dust, light, and decay. The mosaics were briefly rediscovered during renovations in the 1800s but were hidden again until the building became a museum in 1935. Today, even though Hagia Sophia is an active mosque again, the mosaics remain; they are simply covered by curtains during prayer times, allowing a 1,500-year-old Christian legacy to survive inside a major Islamic site. </p>
+{{/collapsible}}
 {{image:hagia-sophia-2}}
 {{image:hagia-sophia-3}}
 {{image:hagia-sophia-4}}
@@ -74,7 +80,7 @@ export function getPostBySlug(slug: string) {
     return;
   }
 
-  const processedContent = post.content.replace(/{{image:(.*?)}}/g, (match, imageId) => {
+  let processedContent = post.content.replace(/{{image:(.*?)}}/g, (match, imageId) => {
     const image = Images.find((img) => img.id === imageId.trim());
     if (image) {
       const imageTag = `<img src="${image.imageUrl}" alt="${image.description}" class="blog-image mx-auto block" />`;
@@ -83,6 +89,15 @@ export function getPostBySlug(slug: string) {
     }
     return '';
   });
+
+  const collapsibleRegex = /{{collapsible:title="(.*?)"}}([\s\S]*?){{\/collapsible}}/g;
+  processedContent = processedContent.replace(
+    collapsibleRegex,
+    (match, title, content) => {
+      return `<div data-collapsible="true" data-title="${title}">${content}</div>`;
+    }
+  );
+
 
   return { ...post, content: processedContent };
 }
