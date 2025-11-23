@@ -11,13 +11,14 @@ export interface Post {
     lat: number;
     lng: number;
   };
+  tag?: string;
 }
 
 const allPosts: Post[] = [
   {
     slug: 'cats-of-istanbul',
-    title: 'Cats of Istanbul',
-    summary: 'cat.',
+    title: 'Cats of Istanbul (pics)',
+    summary: 'Pictures of cats',
     date: '2024-05-15',
     imageId: 'istanbul-cat-1',
     content: `
@@ -34,6 +35,7 @@ const allPosts: Post[] = [
       lat: 41.0082,
       lng: 28.9784,
     },
+    tag: 'Istanbul',
   },
   {
     slug: 'hagia-sophia',
@@ -54,11 +56,16 @@ const allPosts: Post[] = [
       lat: 41.0086,
       lng: 28.9800,
     },
+    tag: 'Istanbul',
   },
 ];
 
 export function getAllPosts() {
   return allPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export function getPostsByTag(tag: string) {
+  return allPosts.filter((post) => post.tag === tag);
 }
 
 export function getPostBySlug(slug: string) {

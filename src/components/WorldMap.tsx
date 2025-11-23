@@ -1,10 +1,11 @@
 'use client';
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Post } from '@/lib/posts';
 import Link from 'next/link';
 import L from 'leaflet';
+import { useMemo, useEffect } from 'react';
 
 // Hack to fix the default icon path in Leaflet
 // @ts-ignore
@@ -15,24 +16,86 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
 });
 
-export default function WorldMap({ posts }: { posts: Post[] }) {
+function GroupedMarker({ posts }: { posts: Post[] }) {
+  if (!posts.length) return null;
+
+  if (posts.length > 1) {
+    const lats = posts.map(p => p.location?.lat || 0).filter(Boolean);
+    const lngs = posts.map(p => p.location?.lng || 0).filter(Boolean);
+    const avgLat = lats.reduce((a, b) => a + b, 0) / lats.length;
+    const avgLng = lngs.reduce((a, b) => a + b, 0) / lngs.length;
+
+    return (
+      <Marker position={[avgLat, avgLng]}>
+        <Popup>
+          <Link href={`/tags/${posts[0].tag}`}>
+            {posts[0].tag} - {posts.length} posts
+          </Link>
+        </Popup>
+      </Marker>
+    );
+  }
+
+  const post = posts[0];
+  if (!post.location) return null;
+
+  return (
+    <Marker position={[post.location.lat, post.location.lng]}>
+      <Popup>
+        <Link href={`/posts/${post.slug}`}>
+          {post.title}
+        </Link>
+      </Popup>
+    </Marker>
+  );
+}
+
+function FitBounds({ posts }: { posts: Post[] }) {
+  const map = useMap();
+  useEffect(() => {
+    const postsWithLocation = posts.filter(p => p.location);
+    if (postsWithLocation.length > 0) {
+      const bounds = L.latLngBounds(postsWithLocation.map(post => [post.location!.lat, post.location!.lng]));
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [50, 50] });
+      }
+    }
+  }, [posts, map]);
+  return null;
+}
+
+export default function WorldMap({ posts, fitBounds }: { posts: Post[], fitBounds?: boolean }) {
+  const markersToRender = useMemo(() => {
+    if (fitBounds) {
+      return posts.map(post => [post]);
+    }
+
+    const groups: { [key: string]: Post[] } = {};
+    posts.forEach(post => {
+      if (post.tag) {
+        if (!groups[post.tag]) {
+          groups[post.tag] = [];
+        }
+        groups[post.tag].push(post);
+      } else {
+        if (post.location) {
+          groups[post.slug] = [post];
+        }
+      }
+    });
+    return Object.values(groups);
+  }, [posts, fitBounds]);
+
   return (
     <MapContainer center={[20, 0]} zoom={2} className="h-96 w-full">
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      {posts.map((post) => (
-        post.location && (
-          <Marker key={post.slug} position={[post.location.lat, post.location.lng]}>
-            <Popup>
-              <Link href={`/posts/${post.slug}`}>
-                {post.title}
-              </Link>
-            </Popup>
-          </Marker>
-        )
+      {markersToRender.map((postGroup, index) => (
+        <GroupedMarker key={index} posts={postGroup} />
       ))}
+      {fitBounds && <FitBounds posts={posts} />}
     </MapContainer>
   );
 }
