@@ -39,12 +39,16 @@ const allPosts: Post[] = [
   },
   {
     slug: 'hagia-sophia',
-    title: 'The Timeless Wonder of Hagia Sophia',
-    summary: 'Exploring the architectural marvel and rich history of Istanbul\'s iconic landmark.',
-    date: '2024-11-20',
-    imageId: 'hagia-sophia-1',
+    title: 'Hagia Sophia',
+    summary: 'History facts and visiting information about Hagia Sophia.',
+    date: '2025-11-22',
+    imageId: 'hagia-sophia-3',
     content: `
-<p>The Hagia Sophia we see today is actually the third church built on that spot. After the previous building was burned down during riots in 532 AD, Emperor Justinian I wanted to build a replacement that would prove his power and wealth to the world. He hired two brilliant mathematicians to design it, and they created a revolutionary dome that looked like it was floating in the air. Amazingly, the construction took less than six years to finish. When it opened in 537 AD, it became the largest cathedral in the world, a record it held for nearly a thousand years.</p>
+{{collapsible:title="Tickets and Entrance Info"}}
+<p> Tickets are 25€ and available in person at the ticket counter at the Sultan Ahmed III Fountain. This is the ONLY official source of tickets despite what many sites online want you to believe. Tickets include access to the upper floor the mosque where the mosaics are as well as the "Hagia Sophia Experience Museum" nearby. The lower floor of the mosque is </p>
+<p> Hours: The ticket window opens at 9, but the lines can be long so try to arrive at 8:30 or so. </p>
+
+{{/collapsible}}
 
 <p>
 {{image:hagia-sophia-1}}
