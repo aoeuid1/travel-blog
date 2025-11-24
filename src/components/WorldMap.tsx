@@ -91,8 +91,9 @@ export default function WorldMap({ posts, fitBounds }: { posts: Post[], fitBound
       <h2 className="text-2xl font-bold font-headline tracking-tight mb-4">Destinations</h2>
       <MapContainer center={[20, 0]} zoom={2} className="h-96 w-full">
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
+          attribution="&copy; Google"
+          subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
         />
         {markersToRender.map((postGroup, index) => (
           <GroupedMarker key={index} posts={postGroup} />
