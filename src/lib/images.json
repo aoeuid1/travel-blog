@@ -96,6 +96,12 @@
       "description": "",
       "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251123_085051243.jpg",
       "imageHint": ""
+    },
+    {
+      "id": "eminonu-1",
+      "description": "A view of the bustling Eminönü square.",
+      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0317.jpg",
+      "imageHint": "a bustling city square"
     }
   ]
 }
