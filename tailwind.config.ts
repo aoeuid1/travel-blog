@@ -19,8 +19,8 @@ const config = {
     },
     extend: {
       fontFamily: {
-        body: ['Literata', 'serif'],
-        headline: ['Belleza', 'sans-serif'],
+        body: ['Proxima Nova', 'sans-serif'],
+        headline: ['Tiempos Headline', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -79,6 +79,7 @@ const config = {
       typography: (theme: any) => ({
         DEFAULT: {
           css: {
+            lineHeight: '1.7',
             // Add your base prose styles here
           },
         },

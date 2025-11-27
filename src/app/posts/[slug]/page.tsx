@@ -2,11 +2,9 @@
 import { getPostBySlug, getAllPosts } from '@/lib/posts';
 import { notFound } from 'next/navigation';
 import { Images } from '@/lib/images';
-import Image from 'next/image';
-import { Calendar } from 'lucide-react';
-import { cn } from '@/lib/utils';
 import { Collapsible } from '@/components/Collapsible';
 import React from 'react';
+import { PostHeader } from '@/components/PostHeader';
 
 // This function is required for static site generation
 export async function generateStaticParams() {
@@ -14,15 +12,6 @@ export async function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug,
   }));
-}
-
-function formatDate(dateString: string) {
-  const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
 }
 
 export default function PostPage({ params }: { params: { slug: string } }) {
@@ -53,31 +42,22 @@ export default function PostPage({ params }: { params: { slug: string } }) {
   };
 
   return (
-    <article className="max-w-4xl mx-auto">
-      <header className="text-center mx-auto max-w-3xl pb-8 mb-8 border-b">
-        <h1 className="text-4xl md:text-5xl font-headline font-bold mb-4">{post.title}</h1>
-        <div className="flex items-center justify-center text-muted-foreground">
-          <Calendar className="h-4 w-4 mr-2" />
-          <p className="text-sm font-medium uppercase tracking-widest">
-            {formatDate(post.date)}
-          </p>
-        </div>
-      </header>
-
-      <figure className="mb-12">
-        <Image
-          src={image.imageUrl}
-          alt={image.description}
-          width={1200}
-          height={600}
-          className={cn('w-full h-auto', 'blog-image')}
-          data-ai-hint={image.imageHint}
-        />
-      </figure>
-
-      <div className="prose prose-lg dark:prose-invert max-w-2xl mx-auto text-stone-800 dark:text-zinc-300 text-lg prose-p:my-6 first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left font-serif prose-headings:text-stone-800 prose-headings:dark:text-zinc-100">
-        {renderContent()}
+    <div>
+      <PostHeader
+        imageUrl={image.imageUrl}
+        imageDescription={image.description}
+        imageHint={image.imageHint || ''}
+        title={post.title}
+        date={post.date}
+      />
+      <div className="h-[400px] md:h-[600px]" />
+      <div className="bg-background relative z-10">
+        <article className="max-w-3xl mx-auto px-4 py-12">
+          <div className="prose prose-lg dark:prose-invert max-w-2xl mx-auto text-stone-800 dark:text-zinc-300 text-lg prose-p:my-6 first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left font-serif prose-headings:text-stone-800 prose-headings:dark:text-zinc-100">
+            {renderContent()}
+          </div>
+        </article>
       </div>
-    </article>
+    </div>
   );
 }
