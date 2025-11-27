@@ -22,7 +22,7 @@ const allPosts: Post[] = [
     date: '2025-11-21',
     imageId: 'istanbul-cat-1',
     content: `
-<p> Istanbul has been know for its cats since Ottoman times. They are well fed, well care for, and most importantly well loved by all the local population and tourists alike. It is said that they even helped the city survive the plague through their important work catching rats! </p>
+<p> Istanbul has been know for its cats since Ottoman times. They are well fed, well cared for, and most importantly well loved by all the local population and tourists alike. It is said that they even helped the city survive the plague through their important work catching rats! </p>
 {{image:istanbul-cat-4}}
 {{image:istanbul-cat-5}}
 {{image:istanbul-cat-6}}
@@ -45,7 +45,18 @@ const allPosts: Post[] = [
     date: '2025-11-22',
     imageId: 'hagia-sophia-3',
     content: `
-<h2> Hagia Sophia </h2>
+<p>If one silhouette defines the Istanbul skyline, it is the Hagia Sophia. Standing for nearly 1,500 years, this architectural marvel with its massive "floating" dome and pencil-thin minarets is more than just a beautiful building—it is a living timeline of human history.</p>
+
+  <h2>A Chameleon of History</h2>
+  <p>What makes the Hagia Sophia unique is its ability to adapt. While the stones remain the same, its spirit has evolved alongside the city:</p>
+
+  <ul>
+    <li><strong>Byzantine Cathedral (537–1453):</strong> Commissioned by Emperor Justinian, it was the world’s largest building and the heart of Eastern Orthodox Christianity for over 900 years.</li>
+    <li><strong>Ottoman Mosque (1453–1935):</strong> After the conquest of Constantinople, Sultan Mehmed II converted it into a mosque, adding the iconic minarets and Islamic calligraphy alongside the original Christian mosaics.</li>
+    <li><strong>Museum to Modern Mosque (1935–Present):</strong> It stood as a secular museum for decades, symbolizing a bridge between cultures, before returning to its status as an active mosque in 2020.</li>
+  </ul>
+
+{{collapsible:title="Visitor Info"}}
 
 <h3> Tickets </h3>
 <p> Tickets are available in person at the ticket counter at the Sultan Ahmed III Fountain. For 25€, you get access to the upper floor the mosque where the mosaics are. The lower floor of the mosque is closed for visitors and is for Turkish Muslims for prayer only.</p>
@@ -56,17 +67,18 @@ const allPosts: Post[] = [
 
 <h3> Dress Code </h3>
 <p> Women must cover their hair (headscarf). Both men and women must cover shoulders and knees. Scarves are available for purchase nearby. </p>
+{{/collapsible}}
 
 <h3> Inside Hagia Sophia </h3>
 {{image:hagia-sophia-5}}
-<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. It is pretty small considering the 25€ admission fee.</p>
+<p> The visiting area is the upper floor of the mosque and is a ∩ shape around what is pictured here. I was expecting more for the 25€ admission fee.</p>
 
 <p> In Nov 2025, the scaffolding definitely detracts from the visual appeal of the building but it was the only way to keep the building open during renovations. The ground floor is for Turkish Muslims to pray only.</p>
 {{image:hagia-sophia-4}}
 
 <h3> Mosaics </h3>
 {{image:hagia-sophia-1}}
-{{collapsible:title="Why do christian mosaics in the hagia sophia still exist in the mosque"}}
+{{collapsible:title="Why were its christian mosaics preserved?"}}
 <p> The fact that these mosaics exist at all is surprisingly rare in history. Usually, when a city was conquered in the ancient world, the victors would destroy the religious symbols of the defeated to assert their dominance. Furthermore, the mosaics were made with real gold leaf and semi-precious stones, making them tempting targets for soldiers looking to loot valuable materials. On top of that, strict Islamic laws forbid images of people in prayer spaces. By all historical odds, these Christian images should have been scraped off the walls immediately in 1453. </p>
 <p> Instead, Sultan Mehmed II made the unusual choice to protect the building’s heritage. While the images were eventually covered with plaster to make the space suitable for a mosque, this coating ironically acted as a "time capsule." It shielded the delicate glass and gold from centuries of dust, light, and decay. The mosaics were briefly rediscovered during renovations in the 1800s but were hidden again until the building became a museum in 1935. Today, even though Hagia Sophia is an active mosque again, the mosaics remain; they are simply covered by curtains during prayer times, allowing a 1,500-year-old Christian legacy to survive inside a major Islamic site. </p>
 {{/collapsible}}
