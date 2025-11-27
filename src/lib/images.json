@@ -1,4 +1,3 @@
-
 {
   "images": [
     {
@@ -6,18 +5,6 @@
       "description": "",
       "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0317.jpg",
       "imageHint": "a cat"
-    },
-    {
-      "id": "istanbul-cat-2",
-      "description": "",
-      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0291.jpg",
-      "imageHint": ""
-    },
-    {
-      "id": "istanbul-cat-3",
-      "description": "",
-      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251121_051235490.jpg",
-      "imageHint": ""
     },
     {
       "id": "istanbul-cat-4",
@@ -98,10 +85,35 @@
       "imageHint": ""
     },
     {
-      "id": "eminonu-1",
-      "description": "A view of the bustling Eminönü square.",
-      "imageUrl": "/travel-blog/images/istanbul/cats/DSC_0317.jpg",
-      "imageHint": "a bustling city square"
+      "id": "walls-of-constantinople-1",
+      "description": "Mehmet II entering Constantinople. Fausto Zonaro (1854–1929).",
+      "imageUrl": "/travel-blog/images/istanbul/walls/512px-Zonaro_GatesofConst.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "walls-of-constantinople-2",
+      "description": "Inside the Yedikule Fortress, a section of the walls that is now a museum.",
+      "imageUrl": "/travel-blog/images/istanbul/walls/DSC_0383.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "walls-of-constantinople-3",
+      "description": "A section of the walls near the Belgrade gate that has been recently renovated.",
+      "imageUrl": "/travel-blog/images/istanbul/walls/PXL_20251123_074729785.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "walls-of-constantinople-4",
+      "description": "Breakfast at Belgradkapı Sosyal Tesisleri, ~$8",
+      "imageUrl": "/travel-blog/images/istanbul/walls/PXL_20251123_075541289.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "walls-of-constantinople-5",
+      "description": "Gate of St. Romanus, where Ottoman cannons breached the wall.",
+      "imageUrl": "/travel-blog/images/istanbul/walls/PXL_20251123_095328954 (2).jpg",
+      "imageHint": ""
     }
+
   ]
 }

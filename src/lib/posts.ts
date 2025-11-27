@@ -93,24 +93,27 @@ const allPosts: Post[] = [
   },
   {
     slug: 'walls-of-constantinople',
-    title: 'Walls of Constantinople',
-    summary: 'Stuff',
-    date: '2025-11-25',
-    imageId: 'eminonu-1',
+    title: 'Theodosian Walls of Constantinople',
+    summary: 'A walk along the ancient land walls of Istanbul',
+    date: '2025-11-23',
+    imageId: 'walls-of-constantinople-1',
     content: `
-      <h2>Eminönü: Where History and Commerce Collide</h2>
-      <p>Eminönü is a chaotic and captivating district nestled at the mouth of the Golden Horn, where the old city of Istanbul meets the Bosphorus. It's a place where you can feel the pulse of the city, with its bustling crowds, historic landmarks, and vibrant markets. Whether you're a history buff, a foodie, or a shopaholic, Eminönü has something to offer everyone.</p>
-      {{image:eminonu-1}}
-      <h3>A Feast for the Senses</h3>
-      <p>One of the first things that will strike you about Eminönü is the sheer energy of the place. The air is filled with the sounds of seagulls, ferry horns, and the chatter of a thousand different conversations. The aromas of roasting chestnuts, grilled fish, and exotic spices waft from the street food stalls and markets, tempting you to indulge in a culinary adventure.</p>
-      <h3>Historic Landmarks</h3>
-      <p>Eminönü is home to some of Istanbul's most iconic landmarks, including the magnificent New Mosque (Yeni Cami) and the historic Spice Bazaar (Mısır Çarşısı). The New Mosque, with its grand dome and elegant minarets, is a stunning example of Ottoman architecture. The Spice Bazaar, on the other hand, is a sensory overload, with its colorful displays of spices, teas, sweets, and other Turkish delights.</p>
-      <h3>A Shopper's Paradise</h3>
-      <p>If you're looking to do some shopping, Eminönü is the place to be. From the traditional handicrafts and souvenirs at the Grand Bazaar to the latest fashion trends in the modern shopping streets, you'll find everything you're looking for and more. Don't be afraid to haggle for a good price, as it's all part of the fun!</p>
-    `,
+    <p>The Walls of Constantinople are a series of defensive stone walls that surrounded and protected the city of Constantinople since its founding as the new capital of the Roman Empire by Constantine the Great. The most famous part of the walls is the triple line of the Theodosian Walls, built in the 5th century by Emperor Theodosius II. </p>
+    <p> With numerous additions and modifications during their history, they were considered impregnable for nearly a millenia and survived over 20 sieges before finally succumbing to the cannons of cannons of the Ottoman Sultan Mehmed II in 1453, leading to the fall of the city. </p>
+    <p> Pictured above is a depiction from Fausto Zonaro (1854-1929) of Sultan Mehmed II entering the city.</p>
+    {{image:walls-of-constantinople-2}}
+      <p>Today, much of the Theodosian Walls still stand, and a walk along their length is a journey through history. You can see the original gates, towers, and fortifications, and imagine what it must have been like to defend the city against invaders. Along the way, you'll also encounter parks, cemeteries, and vibrant neighborhoods, offering a glimpse into the daily life of Istanbul.</p>
+      {{image:walls-of-constantinople-3}}
+      {{image:walls-of-constantinople-4}}
+      <p> Sosyal Tesisleri is a chain of government sponsored, non profit restaurants opened to ensure people can still enjoy a nice meal despite the tourism-driven inflation in Istanbul. This one, near the Belgrade Gate (Belgradkapi), is part of a push to revive this area. At these restaurants, you can find local Turkish fare at prices 30-50% less than an equivalent restaurant. The Belgrade Gate and nearby walls are also the subject of extensive restoration efforts. </p>
+      {{image:walls-of-constantinople-5}}
+
+
+      <p> The Gate of St. Romanus, located in a low point in the valley, was the weak point in the walls of Constantinople. On 29 May 1453, after weeks of bombardment, Ottoman cannons finally opened up an opening here. As Ottoman janissaries charged into the gap, in desperation, the last Byzantine emperor Constantine XI Palaiologos stripped off his regalia and charged into the melee here. Despite his heroic last stand, he was never seen again. With him, the city fell, the Byzantine empire fell, and the Roman empire was no more. </p>
+      `,
     location: {
-      lat: 41.017,
-      lng: 28.971,
+      lat: 41.026,
+      lng: 28.922,
     },
     tag: 'Istanbul',
   },
