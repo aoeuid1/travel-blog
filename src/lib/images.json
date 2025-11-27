@@ -86,34 +86,33 @@
     },
     {
       "id": "walls-of-constantinople-1",
-      "description": "Mehmet II entering Constantinople. Fausto Zonaro (1854–1929).",
-      "imageUrl": "/travel-blog/images/istanbul/walls/512px-Zonaro_GatesofConst.jpg",
-      "imageHint": ""
+      "description": "An old painting of the Theodosian walls",
+      "imageUrl": "/images/istanbul/walls/512px-Zonaro_GatesofConst.jpg",
+      "imageHint": "an old painting of a castle wall"
     },
     {
       "id": "walls-of-constantinople-2",
-      "description": "Inside the Yedikule Fortress, a section of the walls that is now a museum.",
-      "imageUrl": "/travel-blog/images/istanbul/walls/DSC_0383.jpg",
-      "imageHint": ""
+      "description": "One of the gates of the Theodosian walls",
+      "imageUrl": "/images/istanbul/walls/DSC_0383.jpg",
+      "imageHint": "a castle gate"
     },
     {
       "id": "walls-of-constantinople-3",
-      "description": "A section of the walls near the Belgrade gate that has been recently renovated.",
-      "imageUrl": "/travel-blog/images/istanbul/walls/PXL_20251123_074729785.jpg",
-      "imageHint": ""
+      "description": "A section of the walls that has been rebuilt over the centuries",
+      "imageUrl": "/images/istanbul/walls/PXL_20251123_074729785.jpg",
+      "imageHint": "a long stone wall"
     },
     {
-      "id": "walls-of-constantinople-4",
-      "description": "Breakfast at Belgradkapı Sosyal Tesisleri, ~$8",
-      "imageUrl": "/travel-blog/images/istanbul/walls/PXL_20251123_075541289.jpg",
-      "imageHint": ""
+      "id": "stalin-museum-1",
+      "description": "The exterior of the Stalin Museum in Gori.",
+      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251123_085051243.jpg",
+      "imageHint": "a grand building with a large portico"
     },
     {
-      "id": "walls-of-constantinople-5",
-      "description": "Gate of St. Romanus, where Ottoman cannons breached the wall.",
-      "imageUrl": "/travel-blog/images/istanbul/walls/PXL_20251123_095328954 (2).jpg",
-      "imageHint": ""
+      "id": "stalin-museum-2",
+      "description": "Inside the Stalin Museum.",
+      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251123_085051243.jpg",
+      "imageHint": "a room with many exhibits"
     }
-
   ]
 }

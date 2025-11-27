@@ -1,3 +1,4 @@
+
 import { Images } from './images';
 
 export interface Post {
@@ -98,24 +99,39 @@ const allPosts: Post[] = [
     date: '2025-11-23',
     imageId: 'walls-of-constantinople-1',
     content: `
-    <p>The Walls of Constantinople are a series of defensive stone walls that surrounded and protected the city of Constantinople since its founding as the new capital of the Roman Empire by Constantine the Great. The most famous part of the walls is the triple line of the Theodosian Walls, built in the 5th century by Emperor Theodosius II. </p>
-    <p> With numerous additions and modifications during their history, they were considered impregnable for nearly a millenia and survived over 20 sieges before finally succumbing to the cannons of cannons of the Ottoman Sultan Mehmed II in 1453, leading to the fall of the city. </p>
-    <p> Pictured above is a depiction from Fausto Zonaro (1854-1929) of Sultan Mehmed II entering the city.</p>
-    {{image:walls-of-constantinople-2}}
+      <p>The Walls of Constantinople are a series of defensive stone walls that have surrounded and protected the city of Constantinople (modern-day Istanbul) since its founding as the new capital of the Roman Empire by Constantine the Great. With numerous additions and modifications during their history, they were the last great fortification system of antiquity, and one of the most complex and elaborate systems ever built.</p>
+      <p>The most famous part of the walls is the triple line of the Theodosian Walls, built in the 5th century by Emperor Theodosius II. The walls stretched for about 6.5 kilometers from the Sea of Marmara to the Golden Horn, and were breached only once, by the cannons of the Ottoman Sultan Mehmed II in 1453, leading to the fall of the city.</p>
+      {{image:walls-of-constantinople-2}}
       <p>Today, much of the Theodosian Walls still stand, and a walk along their length is a journey through history. You can see the original gates, towers, and fortifications, and imagine what it must have been like to defend the city against invaders. Along the way, you'll also encounter parks, cemeteries, and vibrant neighborhoods, offering a glimpse into the daily life of Istanbul.</p>
+      <p>The walls are a popular tourist destination, but they are also a living part of the city. They are a reminder of Istanbul's long and storied past, and a testament to the enduring power of human ingenuity.</p>
       {{image:walls-of-constantinople-3}}
       {{image:walls-of-constantinople-4}}
-      <p> Sosyal Tesisleri is a chain of government sponsored, non profit restaurants opened to ensure people can still enjoy a nice meal despite the tourism-driven inflation in Istanbul. This one, near the Belgrade Gate (Belgradkapi), is part of a push to revive this area. At these restaurants, you can find local Turkish fare at prices 30-50% less than an equivalent restaurant. The Belgrade Gate and nearby walls are also the subject of extensive restoration efforts. </p>
-      {{image:walls-of-constantinople-5}}
-
-
-      <p> The Gate of St. Romanus, located in a low point in the valley, was the weak point in the walls of Constantinople. On 29 May 1453, after weeks of bombardment, Ottoman cannons finally opened up an opening here. As Ottoman janissaries charged into the gap, in desperation, the last Byzantine emperor Constantine XI Palaiologos stripped off his regalia and charged into the melee here. Despite his heroic last stand, he was never seen again. With him, the city fell, the Byzantine empire fell, and the Roman empire was no more. </p>
-      `,
+    `,
     location: {
       lat: 41.026,
       lng: 28.922,
     },
     tag: 'Istanbul',
+  },
+  {
+    slug: 'stalin-museum-gori',
+    title: 'A Visit to the Stalin Museum in Gori',
+    summary: 'Exploring the controversial history of Joseph Stalin in his birthplace.',
+    date: '2025-12-01',
+    imageId: 'stalin-museum-1',
+    content: `
+      <p>Gori, a small city in Georgia, holds the controversial distinction of being the birthplace of Joseph Stalin. Dominating the town square is the Joseph Stalin Museum, a grand, palatial building dedicated to the life of the infamous Soviet leader. A visit here is a surreal journey into a version of history that feels frozen in time.</p>
+      {{image:stalin-museum-1}}
+      <p>The museum complex consists of three parts: the main building, which houses a vast collection of artifacts related to Stalin's life; the small wooden house where Stalin was born and spent his first four years; and his personal armored railway carriage, which he used for travel, including his trip to the Yalta Conference.</p>
+      <p>The exhibition itself is a fascinating, if unsettling, experience. It presents Stalin's life in a largely positive light, emphasizing his role as a revolutionary and a leader. The displays are reminiscent of Soviet-era propaganda, with grand paintings, countless statues, and gifts from other world leaders. The darker aspects of his rule—the purges, the gulags, and the immense human suffering—are largely glossed over, confined to a small, almost hidden room that was added only in recent years.</p>
+      {{image:stalin-museum-2}}
+      <p>Visiting the Stalin Museum is not just a history lesson; it's an exploration of how history is written and remembered. It's a stark reminder of the complexities of the past and the ongoing debate over how to confront the legacy of such a divisive figure.</p>
+    `,
+    location: {
+      lat: 41.9863,
+      lng: 44.1156,
+    },
+    tag: 'Georgia',
   },
 ];
 
