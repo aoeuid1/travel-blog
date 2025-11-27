@@ -92,10 +92,10 @@ const allPosts: Post[] = [
     tag: 'Istanbul',
   },
   {
-    slug: 'eminonu',
-    title: 'Eminönü: A Bustling Hub of History and Commerce',
-    summary: 'Eminönü is a vibrant and historic district in Istanbul, known for its bustling markets, stunning mosques, and lively atmosphere.',
-    date: '2025-11-23',
+    slug: 'walls-of-constantinople',
+    title: 'Walls of Constantinople',
+    summary: 'Stuff',
+    date: '2025-11-25',
     imageId: 'eminonu-1',
     content: `
       <h2>Eminönü: Where History and Commerce Collide</h2>
