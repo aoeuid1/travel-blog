@@ -99,14 +99,19 @@ const allPosts: Post[] = [
     date: '2025-11-23',
     imageId: 'walls-of-constantinople-1',
     content: `
-      <p>The Walls of Constantinople are a series of defensive stone walls that have surrounded and protected the city of Constantinople (modern-day Istanbul) since its founding as the new capital of the Roman Empire by Constantine the Great. With numerous additions and modifications during their history, they were the last great fortification system of antiquity, and one of the most complex and elaborate systems ever built.</p>
-      <p>The most famous part of the walls is the triple line of the Theodosian Walls, built in the 5th century by Emperor Theodosius II. The walls stretched for about 6.5 kilometers from the Sea of Marmara to the Golden Horn, and were breached only once, by the cannons of the Ottoman Sultan Mehmed II in 1453, leading to the fall of the city.</p>
-      {{image:walls-of-constantinople-2}}
+    <p>The Walls of Constantinople are a series of defensive stone walls that surrounded and protected the city of Constantinople since its founding as the new capital of the Roman Empire by Constantine the Great. The most famous part of the walls is the triple line of the Theodosian Walls, built in the 5th century by Emperor Theodosius II. </p>
+    <p> With numerous additions and modifications during their history, they were considered impregnable for nearly a millenia and survived over 20 sieges before finally succumbing to the cannons of cannons of the Ottoman Sultan Mehmed II in 1453, leading to the fall of the city. </p>
+    <p> Pictured above is a depiction from Fausto Zonaro (1854-1929) of Sultan Mehmed II entering the city.</p>
+    {{image:walls-of-constantinople-2}}
       <p>Today, much of the Theodosian Walls still stand, and a walk along their length is a journey through history. You can see the original gates, towers, and fortifications, and imagine what it must have been like to defend the city against invaders. Along the way, you'll also encounter parks, cemeteries, and vibrant neighborhoods, offering a glimpse into the daily life of Istanbul.</p>
-      <p>The walls are a popular tourist destination, but they are also a living part of the city. They are a reminder of Istanbul's long and storied past, and a testament to the enduring power of human ingenuity.</p>
       {{image:walls-of-constantinople-3}}
       {{image:walls-of-constantinople-4}}
-    `,
+      <p> Sosyal Tesisleri is a chain of government sponsored, non profit restaurants opened to ensure people can still enjoy a nice meal despite the tourism-driven inflation in Istanbul. This one, near the Belgrade Gate (Belgradkapi), is part of a push to revive this area. At these restaurants, you can find local Turkish fare at prices 30-50% less than an equivalent restaurant. The Belgrade Gate and nearby walls are also the subject of extensive restoration efforts. </p>
+      {{image:walls-of-constantinople-5}}
+
+
+      <p> The Gate of St. Romanus, located in a low point in the valley, was the weak point in the walls of Constantinople. On 29 May 1453, after weeks of bombardment, Ottoman cannons finally opened up an opening here. As Ottoman janissaries charged into the gap, in desperation, the last Byzantine emperor Constantine XI Palaiologos stripped off his regalia and charged into the melee here. Despite his heroic last stand, he was never seen again. With him, the city fell, the Byzantine empire fell, and the Roman empire was no more. </p>
+      `,
     location: {
       lat: 41.026,
       lng: 28.922,
