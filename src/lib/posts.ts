@@ -129,7 +129,7 @@ const allPosts: Post[] = [
 
       <p>In Gori, Stalin is revered as a hometown hero: the local boy who made it big, not only accumulating a vast amount of power, but also defeating the Nazis and winning WWII. This is also the attitude reflected in his portrayal at the museum. It was opened during Soviet times and has remained largely unchanged.</p>
 
-      <p>Outside of Georgia, Stalin is of course a far more controversial character. Between the Gulags, the purges, and the Holodomor, there are certainly many darker aspects of his rule. The museum largely glosses over all of these topics to focus on the positives. The museum added a small room recently that discusses these topics, but I could not find it.</p>
+      <p>Outside of Georgia, Stalin is of course a far more controversial character. Between the Gulags, the purges, and the Holodomor, there are certainly many darker aspects of his rule. The museum largely glosses over all of these topics to focus on the positives. The museum added a small room recently that discusses these topics. I only learned of it after leaving the museum - it was not clearly marked.</p>
 
       <p>In my opinion, the Stalin Museum was very worth visiting despite the historical omissions: not as a place to find an accurate history lesson about Stalin's life, but more as a fascinating look at how history is written and remembered. The museum paints a believable, cohesive view of his life, and if you visited the museum without outside knowledge of Stalin's controversial policies, I believe the museum could convince you Stalin really was a hometown hero. </p>
 
