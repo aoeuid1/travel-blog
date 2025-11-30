@@ -120,17 +120,30 @@ const allPosts: Post[] = [
   },
   {
     slug: 'stalin-museum-gori',
-    title: 'A Visit to the Stalin Museum in Gori',
-    summary: 'Exploring the controversial history of Joseph Stalin in his birthplace.',
+    title: 'Stalin Museum in Gori: Man, Myth, Legend?',
+    summary: 'The controversial Stalin Museum in Gori celebrates Stalin\'s life and accomplishments.',
     date: '2025-12-01',
     imageId: 'stalin-museum-1',
     content: `
-      <p>Gori, a small city in Georgia, holds the controversial distinction of being the birthplace of Joseph Stalin. Dominating the town square is the Joseph Stalin Museum, a grand, palatial building dedicated to the life of the infamous Soviet leader. A visit here is a surreal journey into a version of history that feels frozen in time.</p>
-      {{image:stalin-museum-1}}
+      <p>Gori, a small city in Georgia, holds the controversial distinction of being the birthplace of Joseph Stalin, Soviet leader from 1924-1953. Dominating the town square is the Joseph Stalin Museum, a shrine dedicated to his life and accomplishments.</p>
+
+      <p>In Gori, Stalin is revered as a hometown hero: the local boy who made it big, not only accumulating a vast amount of power, but also defeating the Nazis and winning WWII. This is also the attitude reflected in his portrayal at the museum. It was opened during Soviet times and has remained largely unchanged.</p>
+
+      <p>Outside of Georgia, Stalin is of course a far more controversial character. Between the Gulags, the purges, and the Holodomor, there are certainly many darker aspects of his rule. The museum largely glosses over all of these topics to focus on the positives. The museum added a small room recently that discusses these topics, but I could not find it.</p>
+
+      <p>In my opinion, the Stalin Museum was very worth visiting despite the historical omissions: not as a place to find an accurate history lesson about Stalin's life, but more as as fascinating look at how history is written and remembered. The museum paints a believable, cohesive view of his life, and if you visited the museum without outside knowledge of Stalin's controversial policies, I believe the museum could convince you Stalin really was a hometown hero. </p>
+
       <p>The museum complex consists of three parts: the main building, which houses a vast collection of artifacts related to Stalin's life; the small wooden house where Stalin was born and spent his first four years; and his personal armored railway carriage, which he used for travel, including his trip to the Yalta Conference.</p>
-      <p>The exhibition itself is a fascinating, if unsettling, experience. It presents Stalin's life in a largely positive light, emphasizing his role as a revolutionary and a leader. The displays are reminiscent of Soviet-era propaganda, with grand paintings, countless statues, and gifts from other world leaders. The darker aspects of his rule—the purges, the gulags, and the immense human suffering—are largely glossed over, confined to a small, almost hidden room that was added only in recent years.</p>
-      {{image:stalin-museum-2}}
-      <p>Visiting the Stalin Museum is not just a history lesson; it's an exploration of how history is written and remembered. It's a stark reminder of the complexities of the past and the ongoing debate over how to confront the legacy of such a divisive figure.</p>
+
+      {{image:stalin-museum-5}}
+      {{image:stalin-museum-4}}
+
+      {{image:stalin-museum-3}}
+      <p> The museum is largely inaccessible for English speakers, as most of the text is written in Georgian and Russian (pictured above). There are some labels in English, but I found them largely unhelpful. For example, a newspaper article about Stalin might have a Russian original and a Georgian translation with only an English label next to it like: "Newspaper article about Stalin: 1937" with no explanation about the contents or significance of the piece. </p>
+
+      <p> Thankfully, there is perfect SIM coverage at the museum so I was able to ask Gemini/ChatGPT to read and translate the displays. It was able to not only translate, but also would often add some fascinating additional context to the displays. The museum is I'd say 80% incomprehensible without translation tools or a guide.</p>
+
+      <p> After leaving the museum, I asked my Georgian taxi driver what he thought of the museum. He said Stalin was popular in Gori as a strong leader who did a lot of good especially in winning WWII. I suggested that some people such as the Ukraininans might disagree with that view, and he started a monologue about how the current war in Ukraine is Zelenky's fault and how it is Russia punishing Ukraine for "bad behavior". He then asked me who I thought was a better leader, Zelensky or Stalin. Not wanting to stir up any more controversy, I answered that Zelensky's legacy would be written when he left office. He didn't seem satisfied with that answer, but we sat in silence for the rest of trip. </p>
     `,
     location: {
       lat: 41.9863,

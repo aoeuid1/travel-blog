@@ -117,14 +117,32 @@
     {
       "id": "stalin-museum-1",
       "description": "The exterior of the Stalin Museum in Gori.",
-      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251123_085051243.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Stalin_1902-1.jpg",
       "imageHint": "a grand building with a large portico"
     },
     {
-      "id": "stalin-museum-2",
-      "description": "Inside the Stalin Museum.",
-      "imageUrl": "/travel-blog/images/istanbul/cats/PXL_20251123_085051243.jpg",
-      "imageHint": "a room with many exhibits"
+      "id": "stalin-museum-3",
+      "description": "A bit of the display about Stalin's early life.",
+      "imageUrl": "/travel-blog/images/georgia/stalin/1.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "stalin-museum-4",
+      "description": "Stalin's room on his train, where he worked and slept",
+      "imageUrl": "/travel-blog/images/georgia/stalin/2.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "stalin-museum-5",
+      "description": "Stalin's armoured train",
+      "imageUrl": "/travel-blog/images/georgia/stalin/3.jpg",
+      "imageHint": ""
+    },
+    {
+      "id": "stalin-museum-6",
+      "description": "His childhood home, enshrined like a temple. Mostly blocked due to construction in 11-2025.",
+      "imageUrl": "/travel-blog/images/georgia/stalin/4.jpg",
+      "imageHint": ""
     }
   ]
 }
