@@ -144,6 +144,8 @@ const allPosts: Post[] = [
       <p> Thankfully, there is perfect SIM coverage at the museum so I was able to ask Gemini/ChatGPT to read and translate the displays. It was able to not only translate, but also would often add some fascinating and much needed additional context to the displays. For example, the museum has an panel about how Stalin wasn't power hungry because he tried repeatedly to resign but the Central Committee wouldn't let him. What's not mentioned is that the resignation vote was really a loyalty test, and everyone knew voting to let him resign would lead to getting purged for disloyalty.</p>
 
       <p> After leaving the museum, I asked my Georgian taxi driver what he thought of the museum. He said Stalin was popular in Gori as a strong leader who did a lot of good especially in winning WWII. I suggested that some people such as the Ukraininans might disagree with that view, and he started a monologue about how the current war in Ukraine is Zelenky's fault and how it is Russia punishing Ukraine for "bad behavior". He then asked me who I thought was a better leader, Zelensky or Stalin. Not wanting to stir up any more controversy, I answered that Zelensky's legacy would be written when he left office. He didn't seem satisfied with that answer, but we sat in silence for the rest of trip. </p>
+
+      {{image:stalin-museum-6}}
     `,
     location: {
       lat: 41.9863,
