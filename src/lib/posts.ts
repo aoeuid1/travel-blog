@@ -17,6 +17,57 @@ export interface Post {
 
 const allPosts: Post[] = [
   {
+    slug: 'uplistsikhe',
+    title: 'Uplistsikhe: Ancient Rock-Hewn City',
+    summary: 'One of the oldest settlements in Georgia, the remains hint at its former glory.',
+    date: '2025-12-05',
+    imageId: 'uplist-1',
+    content: `
+        <p class="intro">Located ten kilometers east of Gori, <strong>Uplistsikhe</strong> (“The Lord's Fortress”) is a fossil of Georgian civilization carved into the high rocky banks of the Mtkvari River. </p>
+      {{image:uplist-3}}
+
+        <h2>Origins</h2>
+        <p>While archeological evidence places the earliest human activity here in the <strong>Early Iron Age (c. 1000 BC)</strong>, the city did not truly rise until centuries later. Uplistsikhe reached its zenith during the Hellenistic period (end of the 1st and 2nd centuries AD) as a stronghold of the <strong>Kingdom of Kartli</strong>.</p>
+              {{image:uplist-2}}
+
+        <p>Before Georgia adopted Christianity, this was the region's supreme pagan center.</p>
+
+        {{image:uplist-4}}
+        <h2>Architecture: "Queen Tamar’s Hall"</h2>
+        <p>Despite its name, this hall dates back to the 1st or 2nd century AD, over a thousand years before Queen Tamar was born. The name is a later folkloric invention, but the architecture is a genuine masterpiece. </p>
+
+        <p>Based on the <a href="https://www.researchgate.net/publication/369416428_The_Architecture_of_Uplistsikhe_Georgia" target="_blank" rel="noopener noreferrer">research of Kakha Khimshiashvili</a>, this hall was a sophisticated illusion where the builders sculpted a palace directly into the rock.</p>
+
+        <ul>
+            <li><strong>The "Wooden" Ceiling:</strong> The stone ceiling features a massive "main beam" carved directly into the rock that divides the room. Crossing this are carved "beams of lesser section," complete with <strong>fascias</strong> (decorative bands). This confirms that the builders were painstakingly recreating the <em>darbazi</em> (traditional log home) style in permanent stone.</li>
+            
+            <li><strong>The Polished Finishes:</strong>The original Hellenistic builders meticulously <strong>smoothed and polished</strong> the sandstone surfaces to erase all tool marks, creating the illusion of manufactured masonry rather than a hollowed-out cliff.</li>
+            
+            <li><strong>The Missing Pillars:</strong> The hall originally featured two massive <strong>octagonal pillars</strong> carved from the living rock. Today, only fragments of the bases and the <strong>abaci</strong> (the flat slabs at the top) remain on the ceiling, but they hint at the room's original, palace-like grandeur.</li>
+        </ul>
+        {{image:uplist-1}}
+        <h2>Uplistsikhe over the ages</h2>
+        <p>Uplistsikhe’s function shifted dramatically over the millennia:</p>
+        <ul>
+            <li><strong>The Pagan Stronghold:</strong> When Christianity arrived in 337 AD, Uplistsikhe lost its status as the primary religious center. However, archeological layers show the pagan influence remained strong here long after the rest of the country converted.</li>
+            
+            <li><strong>The Royal Capital:</strong> Following the Arab conquest of Tbilisi in the 8th and 9th centuries, Uplistsikhe became the <em>de facto</em> residence of Georgian kings. The population swelled to 20,000, and a <strong>Christian basilica</strong> was built directly atop the old pagan foundations, using both stone and brick. As pictured above, it still stands at the zenith of the city today. </li>
+            <li><strong>The Mongol End:</strong> The city’s timeline ended abruptly in the 13th and 14th centuries. Mongol raids decimated the fortress and burned the surrounding settlements.</li>
+        </ul>
+
+      {{image:uplist-5}}
+      <h2>"Secret" Tunnel</h2>
+
+      <p> Don't leave without walking through the "secret" tunnel, a steep passage straight through the cliffside down to the river. This fortified passage formerly allowed inhabitants to fetch water during sieges or flee unnoticed during an invasion. It can be found near the river side of the city, so you may need to backtrack to get to the entrance. The exit of the tunnel spits you out on the ground level near the river, on the path leading to the parking lot.</p>
+
+    `,
+    location: {
+      lat: 41.966457,
+      lng: 44.207356,
+    },
+    tag: 'Georgia',
+  },
+  {
     slug: 'cats-of-istanbul',
     title: 'Cats of Istanbul (pics)',
     summary: 'Pictures of cute cats',
@@ -135,7 +186,7 @@ const allPosts: Post[] = [
 
       <p>In my opinion, the Stalin Museum was very worth visiting despite the historical omissions: not as a place to find an accurate history lesson about Stalin\'s life, but more as a fascinating look at how history is written and remembered. The museum paints a believable, cohesive view of his life, and if you visited the museum without outside knowledge of Stalin\'s controversial policies, I believe the museum would convince you Stalin was indisputably a hero or even a saint.</p>
 
-      <p>The museum complex consists of three parts: the main building, which houses a vast collection of artifacts related to Stalin\'s life; the small wooden house where Stalin was born and spent his first four years; and his personal armored railway carriage, which he used for travel, including his trip to the Yalta Conference.</p>
+      <p>The museum complex consists of three parts: the main building, which houses a vast collection of artifacts related to Stalin\'s life; a small wooden house where he was born and spent his first four years; and his personal armored railway carriage, which he used for travel, including his trip to the Yalta Conference.</p>
 
       {{image:stalin-museum-5}}
       {{image:stalin-museum-4}}
@@ -145,7 +196,7 @@ const allPosts: Post[] = [
 
       <p> Thankfully, there is perfect SIM coverage at the museum so I was able to ask Gemini/ChatGPT to read and translate the displays. It was able to not only translate, but also would often add some fascinating and much needed additional context to the displays. For example, the museum has a panel about how Stalin wasn\'t power hungry because he tried repeatedly to resign but the Central Committee wouldn\'t let him. In addition to translating the panel, Gemini was able to add some important context not mentioned in the museum that the resignation votes were really loyalty tests and everyone knew voting to let him resign would lead to getting purged for disloyalty. I did not have a guide, but I doubt a guide hired at the Stalin Museum would tell you about the purges.</p>
 
-      <p> After leaving the museum, I asked my Georgian taxi driver what he thought of the museum. He said Stalin was popular in Gori as a strong leader who made many tough decisions and did a lot of good especially in winning WWII. I suggested that some people such as the Ukrainians might disagree with that view, and he started a monologue about how the current war in Ukraine is Zelensky\'s fault, how it is Russia punishing Ukraine for "bad behavior", and how it never would have happened if Stalin was president of Ukraine.</p>
+      <p> After leaving the museum, I asked my Georgian taxi driver what he thought of the museum. He said Stalin was popular in Gori as a strong leader who did a lot of good especially in winning WWII. I suggested that some people such as the Ukrainians might disagree with that view, and he started a monologue about how the current war in Ukraine is Zelensky\'s fault, how it is Russia punishing Ukraine for "bad behavior", and how it never would have happened if Stalin was president of Ukraine.</p>
       
       <p> He then asked me who I thought was a better leader, Zelensky or Stalin. Not wanting to stir up any more controversy, I answered that Zelensky\'s legacy would be written when he left office. He didn\'t seem satisfied with that answer, but I was relieved that was the end of that conversation. It was an important reminder that not everyone sees the world as I do from the US. It also reiterated my main takeaway from the museum: history and current events are written the way people want to see them.</p>
 
