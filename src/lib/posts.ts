@@ -131,7 +131,7 @@ const allPosts: Post[] = [
 
       <p>Outside of Georgia, Stalin is of course a far more controversial character. Between the Gulags, the purges, and the Holodomor, there are certainly many darker aspects of his rule. The museum largely glosses over all of these topics to focus on the positives. The museum added a small room recently that discusses his controversies but I only learned of it after leaving the museum - it was not clearly marked.</p>
 
-      <p>In my opinion, the Stalin Museum was very worth visiting despite the historical omissions: not as a place to find an accurate history lesson about Stalin's life, but more as a fascinating look at how history is written and remembered. The museum paints a believable, cohesive view of his life, and if you visited the museum without outside knowledge of Stalin's controversial policies, I believe the museum would convince you Stalin was a hero. </p>
+      <p>In my opinion, the Stalin Museum was very worth visiting despite the historical omissions: not as a place to find an accurate history lesson about Stalin's life, but more as a fascinating look at how history is written and remembered. The museum paints a believable, cohesive view of his life, and if you visited the museum without outside knowledge of Stalin's controversial policies, I believe the museum would convince you Stalin was indisputably a hero or even a saint.</p>
 
       <p>The museum complex consists of three parts: the main building, which houses a vast collection of artifacts related to Stalin's life; the small wooden house where Stalin was born and spent his first four years; and his personal armored railway carriage, which he used for travel, including his trip to the Yalta Conference.</p>
 
