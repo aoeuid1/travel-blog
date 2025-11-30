@@ -104,6 +104,8 @@ const allPosts: Post[] = [
     <p> Pictured above is a depiction from Fausto Zonaro (1854-1929) of Sultan Mehmed II entering the city.</p>
     {{image:walls-of-constantinople-2}}
       <p>Today, much of the Theodosian Walls still stand, and a walk along their length is a journey through history. You can see the original gates, towers, and fortifications, and imagine what it must have been like to defend the city against invaders. Along the way, you'll also encounter parks, cemeteries, and vibrant neighborhoods, offering a glimpse into the daily life of Istanbul.</p>
+      <p> The best way to see the walls is to start from the Yedikule Fortress on the southern end of the walls, and follow the walls northwards. Yedikule Fortress and some of the gates are designed for tourists, but much of the path along the walls follows a small road with some industrial activity alongside it. It was also a pretty long trek, so unless you're like me and really enjoy walking, you might prefer to go by taxi or find a tour group to drive you to key sites.</p>
+
       {{image:walls-of-constantinople-3}}
       {{image:walls-of-constantinople-4}}
       <p> Sosyal Tesisleri is a chain of government sponsored, non profit restaurants opened to ensure people can still enjoy a nice meal despite the tourism-driven inflation in Istanbul. This one, near the Belgrade Gate (Belgradkapi), is part of a push to revive this area. At these restaurants, you can find local Turkish fare at prices 30-50% less than an equivalent restaurant. The Belgrade Gate and nearby walls are also the subject of extensive restoration efforts. </p>
